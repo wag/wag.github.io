@@ -1,0 +1,138 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {
+  font-family:'Raleway', sans-serif;
+  background-color:#fefefe;
+  color:#666;
+  font-size:15px;
+  line-height:20px;
+  padding:0;
+  margin:0;
+}
+
+h1 {
+  font-family:'Josefin Sans', sans-serif;
+  font-weight:lighter;
+  font-size:1.5em;
+  line-height:1.5em;
+  text-align:center;
+  margin:7px 0;
+}
+
+a {
+  text-decoration:none;
+  color:#08c;
+}
+
+a:hover {
+  text-decoration:none;
+  border-bottom:1px solid #08c;
+}
+
+a:active,
+a:visited {
+  color:#08c;
+}
+
+hr.heading {
+  margin:0;
+  border:0;
+  height:1px;
+  width:100px;
+  margin-left:50px;
+  background-image:-webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); 
+  background-image:-moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); 
+  background-image:-ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); 
+  background-image:-o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); 
+}
+
+div.wrapper {
+  width:400px;
+  margin:20px auto;
+  font-size:0;
+  letter-spacing:0;
+  word-spacing:0;
+  border:1px solid #ddd;
+}
+
+div.wrapper > div {
+  font-size:15px;
+  letter-spacing:normal;
+  word-spacing:normal;
+}
+
+div.horizontal {
+  width:400px;
+}
+
+div.vertical {
+  float:left;
+  width:200px;
+}
+
+div.block {
+  display:inline-block;
+  position:relative;
+  float:left;
+  width:200px;
+  height:200px;
+  background-color:#fefefe;
+  border-top:none;
+}
+
+div.icon {
+  font-size:5em;
+  text-align:center;
+  line-height:200px;
+  background-color:#666;
+  color:#fefefe;
+}
+
+div.text {
+  text-align:center;
+}
+
+div.text p {
+  margin:15px 20px;
+}
+
+div.block [class^="tail-"] {
+  position:absolute;
+  width:0;
+  height:0;
+  border-width:10px;
+  border-style:solid;
+  z-index:5;
+}
+
+div.block div.tail-top {
+  top:-19px;
+  left:90px;
+  border-color:transparent transparent #666 transparent;
+}
+
+div.block div.tail-bottom {
+  bottom:-19px;
+  left:90px;
+  border-color:#666 transparent transparent transparent;
+}
+
+div.block div.tail-right {
+  top:90px;
+  left:200px;
+  border-color:transparent transparent transparent #666;
+}
+
+div.block div.tail-left {
+  top:90px;
+  right:200px;
+  border-color:transparent #666 transparent transparent;
+}
+
+div.info {
+  width:400px;
+  margin:20px auto;
+  font-size:0.7em;
+  text-align:center;
+}
