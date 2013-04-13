@@ -1,4 +1,4 @@
-wag.github.io
+jonaswagner.ch
 =============
 
 Personal website
