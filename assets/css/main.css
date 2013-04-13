@@ -7,8 +7,6 @@ body {
   color:#666;
   font-size:15px;
   line-height:20px;
-  padding:0;
-  margin:0;
 }
 
 h1 {
@@ -22,7 +20,6 @@ h1 {
 
 a {
   text-decoration:none;
-  color:#08c;
 }
 
 a:hover {
@@ -30,6 +27,7 @@ a:hover {
   border-bottom:1px solid #08c;
 }
 
+a,
 a:active,
 a:visited {
   color:#08c;
@@ -72,13 +70,11 @@ div.vertical {
 }
 
 div.block {
-  display:inline-block;
   position:relative;
   float:left;
   width:200px;
   height:200px;
   background-color:#fefefe;
-  border-top:none;
 }
 
 div.icon {
